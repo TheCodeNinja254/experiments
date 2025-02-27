@@ -4,7 +4,7 @@
 a=0
 b=1
 
-echo "Fibonacci Sequence (Infinite Loop):"
+echo "Starting Fibonacci Sequence (Infinite Loop):"
 echo $a
 echo $b
 
@@ -14,5 +14,5 @@ while true; do
     echo $fib
     a=$b            # Update previous values
     b=$fib
-    sleep 0.5       # Optional: Slow down execution (adjust as needed)
+    sleep 0.000005       # Optional: Slow down execution (adjust as needed) initial was 0.5, mine is greedy.
 done

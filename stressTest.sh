@@ -1,4 +1,4 @@
-echo "Hello, Fucktards! I am killing you!"
+echo "Hello! I am killing you!"
 
 #!/bin/bash
 
